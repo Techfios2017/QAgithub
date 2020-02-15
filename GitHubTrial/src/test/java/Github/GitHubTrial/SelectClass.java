@@ -24,7 +24,7 @@ public class SelectClass {
 	//Select South America
 	Select select = new Select(driver.findElement(By.id("continents")));
 	//select.selectByIndex(4);
-	select.selectByValue("Antartica");
+	select.selectByVisibleText("Antartica");
 	Thread.sleep(10000);
 	}
 	@AfterMethod
