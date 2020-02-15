@@ -1,19 +1,19 @@
 package Github.GitHubTrial;
 
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
-
 import org.junit.Test;
+import java.util.Random;
 import org.openqa.selenium.By;
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
 
 public class addnewtest {
 	@Test
 	public void account() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		Random r = new Random();
