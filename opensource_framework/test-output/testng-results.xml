@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11656" started-at="2020-02-18T06:20:45Z" finished-at="2020-02-18T06:20:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11656" started-at="2020-02-18T06:20:45Z" finished-at="2020-02-18T06:20:57Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="userShouldBeAbleToLogIn()[pri:0, instance:test.LoginTest@56f4468b]" name="userShouldBeAbleToLogIn" duration-ms="11602" started-at="2020-02-18T00:20:45Z" finished-at="2020-02-18T00:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToLogIn -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
