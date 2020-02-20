@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11656" started-at="2020-02-18T06:20:45Z" finished-at="2020-02-18T06:20:57Z">
+  <suite name="Default suite" duration-ms="16000" started-at="2020-02-19T23:22:58 CST" finished-at="2020-02-19T23:23:14 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11656" started-at="2020-02-18T06:20:45Z" finished-at="2020-02-18T06:20:57Z">
+    <test name="Default test" duration-ms="16000" started-at="2020-02-19T23:22:58 CST" finished-at="2020-02-19T23:23:14 CST">
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="userShouldBeAbleToLogIn()[pri:0, instance:test.LoginTest@56f4468b]" name="userShouldBeAbleToLogIn" duration-ms="11602" started-at="2020-02-18T00:20:45Z" finished-at="2020-02-18T00:20:57Z">
+        <test-method status="PASS" signature="userShouldBeAbleToLogIn()[pri:0, instance:test.LoginTest@61f8bee4]" name="userShouldBeAbleToLogIn" duration-ms="15914" started-at="2020-02-19T23:22:58 CST" finished-at="2020-02-19T23:23:14 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userShouldBeAbleToLogIn -->

@@ -10,6 +10,7 @@ public class BrowserFactory {
 	public static WebDriver startBrowser() {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.get("https://s1.demo.opensourcecms.com/wordpress/wp-login.php");
 		return driver;
 	
 	}

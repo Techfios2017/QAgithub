@@ -1,12 +1,11 @@
 package page;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
 
 	WebDriver driver;
 	
@@ -21,13 +20,22 @@ public class LoginPage {
 	@FindBy(how = How.ID, using = "wp-submit")WebElement Submit;
 
 	//Methods to interact with Elements
-	public void login(String user_login, String user_pass) {
-		Username.sendKeys(user_login);
-		Password.sendKeys(user_pass);
+	public void login() {
+		Username.sendKeys("opensourcecms");
+		Password.sendKeys("opensourcecms");
 		Submit.click();
 		
 	}
 
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
+
+	
+
+	
+
+	
 	
 
 }
